@@ -6,7 +6,9 @@ public class Usuario {
         System.out.println("CANAL ATUAL: " + smartTv.canal);
         System.out.println("VOLUME ATUAL: " + smartTv.volume);
 
-        
+        smartTv.ligar();
+        System.out.println("NOVO STATUS: --TV LIGADA--" + smartTv.ligada);
+
 
     }   
 }
