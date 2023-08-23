@@ -3,5 +3,4 @@ public class MinhaClasse{
         System.out.println("Olá, mundo!");
     }
 
-
 }
