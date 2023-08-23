@@ -14,7 +14,8 @@ public class Usuario {
         smartTv.ligar();
         System.out.println("NOVO STATUS: --TV LIGADA-- " + smartTv.ligada);
         System.out.println("volume: " + smartTv.volume);
-
+        smartTv.mudarCanal(15);
+        System.out.println("CANAL ATUAL: " + smartTv.canal);
 
     }   
 }
